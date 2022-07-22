@@ -1,4 +1,4 @@
-package com.btb.Day2;
+package com.btb.Day3;
 class Parent{
     public void message(){
         System.out.println("Parent");

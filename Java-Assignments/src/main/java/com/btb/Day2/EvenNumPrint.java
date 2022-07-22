@@ -1,4 +1,4 @@
-package com.btb.test;
+package com.btb.Day2;
 public class EvenNumPrint {
     public static void main(String[] args) {
         for (int i = 0; i <= 15; i++){

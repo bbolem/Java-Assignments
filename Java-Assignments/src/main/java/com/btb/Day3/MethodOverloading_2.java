@@ -1,4 +1,4 @@
-package com.btb.Day2;
+package com.btb.Day3;
 public class MethodOverloading_2 {
     public double multiply(double a, double b){
         return a*b;

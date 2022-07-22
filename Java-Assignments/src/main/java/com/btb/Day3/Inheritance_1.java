@@ -1,4 +1,4 @@
-package com.btb.Day2;
+package com.btb.Day3;
 
 class Vehicle{
     private int speed;

@@ -1,4 +1,4 @@
-package com.btb.test;
+package com.btb.Day2;
 public class WhileNumbers {
     public static void main(String[] args) {
         int i = 1;

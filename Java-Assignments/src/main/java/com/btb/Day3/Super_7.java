@@ -1,5 +1,4 @@
-package com.btb.Day2;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package com.btb.Day3;
 class Employee{
     String role;
     Employee(String role){

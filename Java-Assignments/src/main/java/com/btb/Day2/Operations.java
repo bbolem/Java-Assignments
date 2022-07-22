@@ -1,4 +1,4 @@
-package com.btb.test;
+package com.btb.Day2;
 public class Operations {
     public static void main(String[] args) {
         int i = 1, j = 5;

@@ -1,4 +1,4 @@
-package com.btb.Day2;
+package com.btb.Day3;
 
 interface Devices{
     void devType();

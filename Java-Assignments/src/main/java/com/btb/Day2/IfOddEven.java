@@ -1,4 +1,4 @@
-package com.btb.test;
+package com.btb.Day2;
 public class IfOddEven {
     public static void main(String[] args) {
         int i = Integer.parseInt(args[0]);
