@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ArrayList {
+public class ArrayListEx {
     public static void main(String[] args) {
         List<String> animals = new java.util.ArrayList<String>();
 
