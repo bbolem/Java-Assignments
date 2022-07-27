@@ -1,22 +1,20 @@
 package com.btb.Day7;
 
 import java.util.Iterator;
-import java.util.Stack;
+import java.util.Vector;
 
-public class Stack_ {
+public class Vector_1 {
     public static void main(String[] args) {
-        Stack<String> carCompany = new Stack<>();
+        Vector<String> carCompany = new Vector<>();
 
         //Add
-        carCompany.push("Toyota");
-        carCompany.push("BMW");
-        carCompany.push("Subaru");
-        carCompany.add("Acura");    //add work here as well
+        carCompany.add("Honda");
+        carCompany.add("BMW");
+        carCompany.add("Lexus");
         System.out.println(carCompany);
 
         //Remove
-        //carCompany.remove(1); //
-        carCompany.pop();   //Removes element on top of stack
+        carCompany.remove(1);
         System.out.println(carCompany);
 
         //Iteration

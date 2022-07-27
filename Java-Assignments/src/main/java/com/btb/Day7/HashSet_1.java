@@ -1,21 +1,27 @@
 package com.btb.Day7;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
+import java.util.Set;
+/**
+ *
+ * HashSet sorts the elements.
+ * To remove an element, you have to put in the actual element value.
+ *
+ */
 
-public class ArrayList_ {
+public class HashSet_1 {
     public static void main(String[] args) {
-        List<String> carCompany = new ArrayList<>();
+        Set<String> carCompany = new HashSet<>();
 
         //Add
         carCompany.add("Toyota");
-        carCompany.add("BMW");
-        carCompany.add("Subaru");
+        carCompany.add("Mercedes Benz");
+        carCompany.add("Acura");
         System.out.println(carCompany);
 
         //Remove
-        carCompany.remove(1);
+        carCompany.remove("Toyota");
         System.out.println(carCompany);
 
         //Iteration
@@ -23,5 +29,6 @@ public class ArrayList_ {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
+
     }
 }

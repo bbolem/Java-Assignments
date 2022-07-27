@@ -1,27 +1,21 @@
 package com.btb.Day7;
 
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
-/**
- *
- * HashSet sorts the elements.
- * To remove an element, you have to put in the actual element value.
- *
- */
+import java.util.LinkedList;
+import java.util.List;
 
-public class HashSet_ {
+public class LinkedList_1 {
     public static void main(String[] args) {
-        Set<String> carCompany = new HashSet<>();
+        List<String> carCompany = new LinkedList<>();
 
         //Add
         carCompany.add("Toyota");
-        carCompany.add("Mercedes Benz");
-        carCompany.add("Acura");
+        carCompany.add("BMW");
+        carCompany.add("Honda");
         System.out.println(carCompany);
 
         //Remove
-        carCompany.remove("Toyota");
+        carCompany.remove(1);
         System.out.println(carCompany);
 
         //Iteration
@@ -29,6 +23,5 @@ public class HashSet_ {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
-
     }
 }

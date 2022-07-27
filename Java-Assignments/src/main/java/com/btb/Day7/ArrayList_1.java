@@ -1,16 +1,17 @@
 package com.btb.Day7;
 
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Vector;
+import java.util.List;
 
-public class Vector_ {
+public class ArrayList_1 {
     public static void main(String[] args) {
-        Vector<String> carCompany = new Vector<>();
+        List<String> carCompany = new ArrayList<>();
 
         //Add
-        carCompany.add("Honda");
+        carCompany.add("Toyota");
         carCompany.add("BMW");
-        carCompany.add("Lexus");
+        carCompany.add("Subaru");
         System.out.println(carCompany);
 
         //Remove

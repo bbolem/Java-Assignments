@@ -1,21 +1,22 @@
 package com.btb.Day7;
 
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Stack;
 
-public class LinkedList_ {
+public class Stack_1 {
     public static void main(String[] args) {
-        List<String> carCompany = new LinkedList<>();
+        Stack<String> carCompany = new Stack<>();
 
         //Add
-        carCompany.add("Toyota");
-        carCompany.add("BMW");
-        carCompany.add("Honda");
+        carCompany.push("Toyota");
+        carCompany.push("BMW");
+        carCompany.push("Subaru");
+        carCompany.add("Acura");    //add work here as well
         System.out.println(carCompany);
 
         //Remove
-        carCompany.remove(1);
+        //carCompany.remove(1); //
+        carCompany.pop();   //Removes element on top of stack
         System.out.println(carCompany);
 
         //Iteration
