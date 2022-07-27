@@ -3,13 +3,13 @@ package com.btb.Day7;
 import java.util.Iterator;
 import java.util.List;
 
-public class LinkedList {
+public class LinkedListEx {
     public static void main(String[] args) {
         List<String> animals = new java.util.LinkedList<>();
 
         animals.add("dog");
         animals.add("cat");
-        animals.add("dolphin");
+        animals.add("rooster");
         System.out.println("Enhanced For:");
         for (String animal : animals){
             System.out.println(animal);
