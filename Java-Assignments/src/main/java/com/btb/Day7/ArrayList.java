@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ArrayListEx {
+public class ArrayList {
     public static void main(String[] args) {
-        List<String> animals = new ArrayList<String>();
+        List<String> animals = new java.util.ArrayList<String>();
 
         animals.add("dog");
         animals.add("cat");
