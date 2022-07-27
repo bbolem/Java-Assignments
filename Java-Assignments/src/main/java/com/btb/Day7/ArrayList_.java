@@ -1,14 +1,17 @@
 package com.btb.Day7;
+
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Set;
-public class HashSet {
+import java.util.List;
+
+public class ArrayList_ {
     public static void main(String[] args) {
-        Set<String> carCompany = new java.util.HashSet<>();
+        List<String> carCompany = new ArrayList<>();
 
         //Add
         carCompany.add("Toyota");
-        carCompany.add("Mercedes Benz");
-        carCompany.add("Acura");
+        carCompany.add("BMW");
+        carCompany.add("Subaru");
         System.out.println(carCompany);
 
         //Remove
@@ -20,6 +23,5 @@ public class HashSet {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
-
     }
 }
