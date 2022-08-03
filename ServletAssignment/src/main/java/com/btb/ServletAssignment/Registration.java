@@ -53,7 +53,7 @@ public class Registration extends HttpServlet {
 				Driver driver = new com.mysql.cj.jdbc.Driver();
 	            DriverManager.registerDriver(driver);
 	            
-				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/training", "root", "Jhps_232");
+				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/training", "root", "root");
 
 				pstmt = con.prepareStatement("insert into training.registration values(?,?,?,?,?)");
 				pstmt.setInt(1, ++id);
